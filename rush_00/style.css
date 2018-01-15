@@ -1,0 +1,216 @@
+
+bite
+{
+	display: gros;
+}
+
+.image
+{
+	position:relative;
+	width:75px;
+	height:75px;
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+section 
+{
+	padding: 25px 25px;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	text-align-last: center;
+	width: auto;
+	margin: 0 5%;
+	border-radius: 1em;
+}
+
+section h1
+{
+	margin-bottom: 25px;
+}
+
+section .grid
+{
+	margin: 25px 0;
+	display: flex;
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	text-align-last: center;
+	flex-wrap: wrap;
+}
+
+.grid .small
+{
+	flex-basis: 25%;
+}
+
+.grid .large
+{
+	flex-basis: 50%;
+}
+
+.grid li img
+{
+	width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  	.grid .small
+	{
+		flex-basis: 50%;
+	}
+	.grid .large
+	{
+		flex-basis: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  	.grid .small
+	{
+		flex-basis: 100%;
+	}
+}
+
+form input
+{
+	margin: 15px 0;
+	font-size: 1em;
+}
+
+form input:last-child
+{
+	margin: 0;
+}
+
+html, body
+{
+	/* Fond d'ecran + permetre d'occuper toute la hauteur de la fenetre*/
+	background-color: #649670;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	align-content: center;
+	justify-content: center;
+}
+
+body
+{
+	/* Pour centrer la fenetre avec les marges automatiques */
+	min-height: 100%;
+	position: relative;
+}
+
+h2, h3, h4, h5 
+{
+	color:white;
+}
+
+h1
+{
+	color:#ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 30px;
+	font-weight: 800; line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+nav
+{
+	background-color: #1abecb;
+}
+
+nav li
+{
+	text-decoration: none;
+}
+
+nav li a
+{
+	display: block;
+	padding: 20px 35px;
+	text-align:center;
+	background-color:#DE1B1B;
+	color:white;
+	width: 80px;
+}
+
+nav li:first-child a
+{
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+
+nav li:last-child a
+{
+	border-bottom-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+
+nav li a:hover
+{
+	background-color:#ff5050;
+}
+
+.admin
+{
+	padding-top:5px;
+	padding-bottom:30px;
+	background-color:#2B2B2B;
+	display:block;
+	margin-right:265px;
+	margin-left:265px;
+	text-align:center;
+}
+
+td
+{
+	color:white;
+	background-color:0#2B2B2B;
+}
+
+.sidebar
+{
+	display:block;
+	background-color:#156476;
+	position: absolute;
+	right: 25px;
+	margin: 0;
+	height: 246px;
+	width: 125px;
+	padding: 25px 12.5px;
+}
+
+.sidebar h4
+{
+	color:white;
+	text-align:center;
+}
+
+.footer
+{
+	position: absolute;
+	bottom: 0;
+}
+
+.footer h5
+{
+	color: #DE1B1B;
+	text-align: center;
+}
+
+a:hover
+{
+	background-color:#ff5050;
+}
+
+

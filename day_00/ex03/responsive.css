@@ -1,0 +1,37 @@
+BODY {
+				font-size: 1vw;
+			}
+			TABLE {
+				width: 100%;
+			}
+			TD {
+				width: 5%;
+				vertical-align: middle;
+				border: none;
+				text-align: center;
+				padding: 0.2vw;
+			}
+			.elem
+			{
+				display: block;
+				vertical-align: middle;
+				font-weight: bold;
+				font-size: 1.8vw;
+				text-align: center;
+			}
+			.mas
+			{
+				display: block;
+				vertical-align: top;
+				font-style: italic;
+				font-size: 0.8vw;
+				text-align: right;
+			}
+			.num
+			{
+				display: block;
+				vertical-align: bottom;
+				font-style: italic;
+				font-size: 0.8vw;
+				text-align: left;
+			}

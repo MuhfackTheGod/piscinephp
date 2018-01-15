@@ -1,0 +1,167 @@
+body {
+	background: #505050;
+}
+
+header {
+	position: relative;
+	width : 1421px;
+	height: 139px;
+	top: +10px;
+	background : rgb(144, 144, 144);
+	margin: auto;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+}
+#form{
+	float:left;
+	margin-top: 10px;
+	z-index: 3;
+	margin-left: 5px;
+	width: 370px;
+	border: 2px solid rgb(155,152,163);
+
+}
+#button
+{
+	position: absolute;
+	z-index: 2;
+	margin-left: 120px;
+	margin-top: 30px;
+	float: right;
+	border: 1px outset;
+	background-color: white;
+	margin-right: 75px;
+}
+#gros{
+	 font-size: 35px;
+    font-family: georgia;
+}
+#green{
+	position: absolute;
+	width: 520px;
+	height: 171px;
+	top: 535px;
+	left:-42px;
+	margin-left:-2px;
+	background: rgb(140, 253, 142);
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+}
+#text{
+	  font-family: verdana;
+    font-size: 15px;
+    margin-top: 12px;
+    letter-spacing: 0.3px;
+    line-height: 20px;
+	margin-left: 10px;
+	text-align: left;
+}
+#shadow{
+	 text-shadow: 4px 4px 4px #ff0000;
+}
+#nav {
+	margin-left: 30px;
+	margin-top: 28px;
+	float: left;
+	width : 140px;
+	height: 425px;
+	background : rgb(144, 144, 144);
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+}
+.img_nav{
+	width: 69px;
+	margin-left: 35px;
+	margin-top: 11px;
+}
+.img_aside{
+	margin-left: 33px;
+	margin-top: 20px;
+}
+#book{
+	width: 70px;
+	height: 95px;
+}
+#cluster{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 1000px;
+	
+}
+#towel{
+	margin-top: 5px;
+	width:65px;}
+#mur{
+	margin-left: 10px;	
+	width: 120px;
+	height: 70px;
+	background-image: url("./resources/brick.jpg");
+   	background-color: #cccccc;}
+#article {
+	width : 1021px;
+	height: 580px;
+	margin-top: 7px;
+	margin-left: 31px;
+	margin-right: 31px;
+	float: left;
+	background : rgb(144, 144, 144);
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+}
+#oeil{
+	margin-top: 2px;
+	margin-left: 26px;
+	border: 5px solid red;
+	 border-radius: 5px}
+#tools
+{
+	margin-top: 2px;
+}
+#aside {
+	float: left;
+	margin-top: 7px;
+		width : 140px;
+	height: 425px;
+	background : rgb(144, 144, 144);
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+}
+
+#center{
+	position: relative;	
+	width: 1420px;
+	margin: auto;
+}
+#close{
+	width : 20px;
+	vertical-align: bottom;
+	float: right;
+	margin-right: -18px;
+	margin-top: 110px;
+}
+#reload{
+	width : 20px;
+	vertical-align: bottom;
+	float: right;
+	margin-right: 9px;
+	margin-top: 12px;
+}
+
+#banner{
+	width:444px;
+	float: top;
+	z-index: 1;
+	left: 4px;
+	margin-bottom: 39px;
+	margin-right: 125px;
+	margin-top:10px;
+}
+
+#loupe{
+	width:255px;
+	z-index: 2;
+	vertical-align: bottom;
+	float: right;
+	left: 585px;
+	margin-top: 15px;
+}
